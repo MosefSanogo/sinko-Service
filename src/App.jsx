@@ -17,7 +17,7 @@ function App() {
   const contactRef = useRef(null);
 
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/sinko-Service">
       
       <NavBar
         refs={{
