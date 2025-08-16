@@ -1,0 +1,39 @@
+.nettoyage {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 5rem auto;
+}
+
+.nettoyage__image {
+  max-width: 100%;
+  height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.nettoyage__title {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.nettoyage__description {
+  font-size: 1rem;
+  line-height: 25px;
+}
+  @media screen and (max-width: 580px){
+    .nettoyage {
+        width: 90%;
+    }
+    .nettoyage__image {
+        height: 250px;
+    }
+    .nettoyage__title {
+        font-size: 1.5rem;
+    }
+    .nettoyage__description {
+        font-size: 0.9rem;
+    }
+  }

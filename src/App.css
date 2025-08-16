@@ -1,0 +1,14 @@
+#root {
+  display: flex;
+  flex-direction: column;
+}
+.cards {
+  width: 80%;
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin: 8rem auto 0 auto;
+  flex: 1;
+}

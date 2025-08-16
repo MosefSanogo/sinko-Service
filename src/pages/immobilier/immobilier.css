@@ -1,0 +1,39 @@
+.immobilier {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 5rem auto;
+}
+
+.immobilier__image {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.immobilier__title {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.immobilier__description {
+  font-size: 1rem;
+  line-height: 25px;
+}
+  @media screen and (max-width: 580px){
+    .immobilier {
+        width: 90%;
+    }
+    .immobilier__image {
+        height: 250px;
+    }
+    .immobilier__title {
+        font-size: 1.5rem;
+    }
+    .immobilier__description {
+        font-size: 0.9rem;
+    }
+  }
