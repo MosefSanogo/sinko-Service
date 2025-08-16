@@ -3,7 +3,7 @@ import './Nettoyage.css'
 function Nettoyage() {
     return (
         <div className='nettoyage'>
-            <img src="/cleaning.jpg" alt="Nettoyage" className='nettoyage__image' />
+            <img src={`${import.meta.env.BASE_URL}/cleaning.jpg`} alt="Nettoyage" className='nettoyage__image' />
             <h1 className='nettoyage__title'>Nettoyage</h1>
             <p className='nettoyage__description'>
                 Nous offrons des services de nettoyage complets et soignés pour vos maisons, bureaux, commerces et sites industriels.

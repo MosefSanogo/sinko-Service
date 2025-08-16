@@ -3,7 +3,7 @@ import './Immobilier.css'
 function Immobilier() {
     return (
         <div className='immobilier'>
-            <img src="/immeuble.png" alt="Immobilier" className='immobilier__image' />
+            <img src={`${import.meta.env.BASE_URL}/immeuble.png`} alt="Immobilier" className='immobilier__image' />
             <h1 className='immobilier__title'>Immobilier</h1>
             <p className='immobilier__description'>
                 SINKO SERVICES vous accompagne dans toutes vos transactions immobilières :<br /><br />

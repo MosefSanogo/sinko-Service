@@ -3,7 +3,7 @@ import './prestation.css'
 function Prestation() {
     return (
         <div className='prestation'>
-            <img src="/prestation.png" alt="Prestation" className='prestation__image' />
+            <img src={`${import.meta.env.BASE_URL}/prestation.png`} alt="Prestation" className='prestation__image' />
             <h1 className='prestation__title'>Prestation</h1>
             <p className='prestation__description'>
                 <b>1. Nettoyage et entretien</b><br />
